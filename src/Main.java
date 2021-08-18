@@ -1,3 +1,4 @@
+//n star square print
 public class Main {
     public static void main(String[] args) {
         int n = 5;
@@ -5,9 +6,9 @@ public class Main {
         {
             for(int j=0;j<n;j++){
 
-                System.out.print("x ");
+                System.out.print("* ");
             }
-            System.out.println("x ");
+            System.out.println("* ");
         }
 
     }
