@@ -10,3 +10,16 @@ public class Main
 		System.out.println(rev);
 	}
 }
+
+//Using StringBuffer.
+
+public class Main{
+
+	public static void main(String args[]){
+		
+		StringBuffer sbf = new StringBuffer("Geeksforgeeks!");
+		System.out.println(sbf);
+		sbf.reverse();
+		System.out.println(sbf);
+	}
+}
